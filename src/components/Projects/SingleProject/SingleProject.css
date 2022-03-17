@@ -50,6 +50,11 @@
   width: 100%;
 }
 
+.icon{
+  color: white;
+  border: 2px solid white
+}
+
 .project--showcaseBtn > a {
   cursor: pointer;
   text-decoration: none;
@@ -62,13 +67,13 @@
 
 .singleProject .project--desc {
   /* position: absolute; */
-  width: 95%;
+  width: 100%;
   height: auto;
   left: 0;
   bottom: 20px;
   /* transform: translate(-110%,40%); */
   padding: 18px;
-  border-radius: 20px 20px;
+  border-radius: 10px;
   /* transition: transform 0.9s; */
   line-height: 110%;
   display: flex;
