@@ -17,7 +17,7 @@ export const projectsData = [
     id: 1,
     projectName: "Ikea Clone",
     projectDesc:
-      "This is a website from where user can buy beautifull house-hold products of the brand IKEA",
+      "This is a full-fledged clone of website IKEA, we have tried to implement every possible feature of the website and provided the full payment cycle with login and signup authoristaion",
     tags: ["React", "Context-API", "Material Ui", "CSS", "HTML"],
     code: "https://github.com/VishalChauhan562/Ikea-Clone",
     demo: "https://ikea-clone2.vercel.app/",
@@ -27,7 +27,7 @@ export const projectsData = [
     id: 2,
     projectName: "Martine Clone",
     projectDesc:
-      "Its a traveling purpose website which supports in booking tickets for events and hotels.",
+      "Its a non functional html css model of website Martine, we have implemented css with great precision and the website fully responsive.",
     tags: ["JavaScript", "HTML", "CSS"],
     code: "https://github.com/VishalChauhan562/Project-1-Martine",
     demo: "http://project-1-martine.vercel.app/",
