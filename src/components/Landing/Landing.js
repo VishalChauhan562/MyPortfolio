@@ -7,7 +7,7 @@ import "./Landing.css";
 import { ThemeContext } from "../../contexts/ThemeContext";
 import { headerData } from "../../data/headerData";
 import { socialsData } from "../../data/socialsData";
-import proPic from "./img/VishalPic.jpeg";
+import proPic from "./img/IMG_1352.jpg";
 
 import {
   FaInstagram,
@@ -77,7 +77,7 @@ function Landing() {
         >
           <div className="lcl--content">
             {socialsData.linkedIn && (
-              <a href={socialsData.linkedIn} target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/abrar-hyder-0877715a/" target="_blank" rel="noreferrer">
                 <FaLinkedin
                   className="landing--social"
                   style={{ color: theme.secondary }}
@@ -86,7 +86,7 @@ function Landing() {
               </a>
             )}
             {socialsData.github && (
-              <a href={socialsData.github} target="_blank" rel="noreferrer">
+              <a href="https://github.com/AbrarHyder" target="_blank" rel="noreferrer">
                 <FaGithub
                   className="landing--social"
                   style={{ color: theme.secondary }}
@@ -94,7 +94,7 @@ function Landing() {
                 />
               </a>
             )}
-            {socialsData.instagram && (
+            {/* {socialsData.instagram && (
               <a href={socialsData.instagram} target="_blank" rel="noreferrer">
                 <FaInstagram
                   className="landing--social"
@@ -102,7 +102,7 @@ function Landing() {
                   aria-label="Twitter"
                 />
               </a>
-            )}
+            )} */}
             {/* {socialsData.youtube && (
               <a href={socialsData.youtube} target="_blank" rel="noreferrer">
                 <FaYoutube
@@ -154,7 +154,7 @@ function Landing() {
                       e.preventDefault();
 
                       window.open(
-                        "https://drive.google.com/file/d/1mT-lwYt03m4-QzAycB2tQqjsI20XBzA6/view",
+                        "https://drive.google.com/file/d/1IgAkK8y0Y1Z1pMLQoqxSCdTJL2kCyG_X/view?usp=sharing",
                         "_blank"
                       );
                     }}
