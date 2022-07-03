@@ -7,32 +7,44 @@ import six from "../assets/svg/projects/six.svg";
 import seven from "../assets/svg/projects/seven.svg";
 import eight from "../assets/svg/projects/eight.svg";
 
-import ikea_image from "../assets/svg/projects/ikea.png";
-import martine_image from "../assets/svg/projects/martine.png";
+import oneMg_image from "../assets/svg/projects/oneMg.png";
+import Licious_image from "../assets/svg/projects/Licious.png";
+import Practo_image from "../assets/svg/projects/Practo.png";
 
 
 
 export const projectsData = [
   {
     id: 1,
-    projectName: "Ikea Clone",
+    projectName: "1MG Clone",
     projectDesc:
-      "This is a full-fledged clone of website IKEA, we have tried to implement every possible feature of the website and provided the full payment cycle with login and signup authoristaion",
-    tags: ["React", "Context-API", "Material Ui", "CSS", "HTML"],
-    code: "https://github.com/VishalChauhan562/Ikea-Clone",
-    demo: "https://ikea-clone2.vercel.app/",
-    image: ikea_image
+      "India's best online pharmacy with a wide range of Prescription and OTC medicines.",
+    tags: ["JavaScript", "HTML", "CSS"],
+    code: "https://github.com/AbrarHyder/1mg",
+    demo: "https://1mg-clone.netlify.app/",
+    image: oneMg_image
   },
   {
     id: 2,
-    projectName: "Martine Clone",
+    projectName: "Licious Clone",
     projectDesc:
-      "Its a non functional html css model of website Martine, we have implemented css with great precision and the website fully responsive.",
+      "Licious is your one-stop fresh meat delivery shop. In here, you get nothing but the freshest meat & seafood, delivered straight to your doorstep.",
     tags: ["JavaScript", "HTML", "CSS"],
-    code: "https://github.com/VishalChauhan562/Project-1-Martine",
-    demo: "http://project-1-martine.vercel.app/",
-    image: martine_image
+    code: "https://github.com/AbrarHyder/licious-clone",
+    demo: "https://bright-tapioca-98b677.netlify.app/",
+    image: Licious_image
+  },
+  {
+    id: 3,
+    projectName: "Practo Clone",
+    projectDesc:
+      "Practo is the world's leading healthcare platform that connects millions of patients with hundreds of thousands of healthcare providers around the world and helps people make better healthcare decisions.",
+    tags: ["JavaScript", "HTML", "CSS","DOM","JSON Server"],
+    code: "https://github.com/AbrarHyder/practo-clone",
+    demo: "https://papaya-salamander-3f0af6.netlify.app/practo-clone/html/home.html",
+    image: Practo_image
   }
+  
  
 ];
 
