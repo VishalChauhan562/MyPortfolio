@@ -9,19 +9,18 @@ import eight from "../assets/svg/projects/eight.svg";
 
 import ikea_image from "../assets/svg/projects/ikea.png";
 import martine_image from "../assets/svg/projects/martine.png";
-
-
+import nemichand from "../assets/svg/projects/nemichand.png";
 
 export const projectsData = [
   {
     id: 1,
-    projectName: "Ikea Clone",
+    projectName: "Nemichand Handlooms",
     projectDesc:
-      "This is a full-fledged clone of website IKEA, we have tried to implement every possible feature of the website and provided the full payment cycle with login and signup authoristaion",
-    tags: ["React", "Context-API", "Material Ui", "CSS", "HTML"],
-    code: "https://github.com/VishalChauhan562/Ikea-Clone",
-    demo: "https://ikea-clone2.vercel.app/",
-    image: ikea_image
+      "This is a full-fledged Ecommerce website with all the essential features. It is under development and will be in use soon.",
+    tags: ["React-Typescript", "Veet", "Noe js", "SCSS", "Postgress", "Sequalize"],
+    code: "https://github.com/VishalChauhan562/nemichand-handlooms",
+    demo: "https://jolly-puffpuff-57e942.netlify.app/",
+    image: nemichand,
   },
   {
     id: 2,
@@ -31,9 +30,8 @@ export const projectsData = [
     tags: ["JavaScript", "HTML", "CSS"],
     code: "https://github.com/VishalChauhan562/Project-1-Martine",
     demo: "http://project-1-martine.vercel.app/",
-    image: martine_image
-  }
- 
+    image: martine_image,
+  },
 ];
 
 // Do not remove any fields.

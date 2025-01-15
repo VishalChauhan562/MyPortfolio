@@ -73,6 +73,7 @@ import sketch from "../assets/svg/skills/sketch.svg";
 import express from "../assets/svg/skills/express.svg";
 import unity from "../assets/svg/skills/unity.svg";
 import wolframalpha from "../assets/svg/skills/wolframalpha.svg";
+import springBoot from "../assets/svg/skills/spring-boot.svg";
 
 import canva from "../assets/svg/skills/canva.svg";
 
@@ -231,6 +232,8 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case "canva":
       return canva;
+    case "spring boot":
+      return springBoot;
     default:
       break;
   }

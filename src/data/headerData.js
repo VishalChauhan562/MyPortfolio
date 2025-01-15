@@ -5,7 +5,7 @@ export const headerData = {
   name: "Vishal Chauhan",
   title: "Web Developer",
   desciption:
-    "Hello! Welcome, my name is Vishal Chauhan. I'm a full stack web developer based in India. I am highly-proficient in MERN stack and looking for opportunities to learn and build. So...let's connect! and start building!",
+    "I am a full-stack developer with extensive experience in both frontend and backend technologies. I have worked with a range of frameworks and languages, including Node.js, Django, Spring Boot, React, Next.js, and TypeScript. My expertise spans building robust, scalable applications, and I am comfortable working in diverse development environments.",
   image:
     "https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png",
   resumePdf: resume,

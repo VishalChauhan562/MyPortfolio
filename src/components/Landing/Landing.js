@@ -154,7 +154,7 @@ function Landing() {
                       e.preventDefault();
 
                       window.open(
-                        "https://drive.google.com/file/d/1mT-lwYt03m4-QzAycB2tQqjsI20XBzA6/view",
+                        "https://drive.google.com/file/d/1ygiYWdvNJ3T7jN4EA5aAVllV4nBPTl-M/view?usp=sharing",
                         "_blank"
                       );
                     }}
